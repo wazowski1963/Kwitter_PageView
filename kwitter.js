@@ -23,5 +23,5 @@ var taki = "yo";
 
 firebase.database().ref("/").child(taki).update({
   purpose: "adding room name",
-  views:2
+  views:views+1
 });
